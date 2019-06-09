@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BarnehageInfo">
+
+    <TextView
+        android:id="@+id/BHIAlderSvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/ikkeSatt"
+        app:layout_constraintStart_toEndOf="@+id/BHIAlder"
+        app:layout_constraintTop_toBottomOf="@+id/barnehageNavn" />
+
+    <TextView
+        android:id="@+id/BHIKommuneSvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/ikkeSatt"
+        app:layout_constraintStart_toEndOf="@+id/BHIKommune"
+        app:layout_constraintTop_toBottomOf="@+id/BHIAlderSvar" />
+
+    <TextView
+        android:id="@+id/BHIAdresseSvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/ikkeSatt"
+        app:layout_constraintStart_toEndOf="@+id/BHIAdresse"
+        app:layout_constraintTop_toBottomOf="@+id/BHIKommuneSvar" />
+
+    <TextView
+        android:id="@+id/BHIApningstidSvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/ikkeSatt"
+        app:layout_constraintStart_toEndOf="@+id/BHIApningstid"
+        app:layout_constraintTop_toBottomOf="@+id/BHIAdresseSvar" />
+
+    <TextView
+        android:id="@+id/BHIAntBarnSvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/ikkeSatt"
+        app:layout_constraintStart_toEndOf="@+id/BHIAntBarn"
+        app:layout_constraintTop_toBottomOf="@+id/BHIApningstidSvar" />
+
+    <TextView
+        android:id="@+id/BHIPedProfilSvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/ikkeSatt"
+        app:layout_constraintStart_toEndOf="@+id/BHIPedProfil"
+        app:layout_constraintTop_toBottomOf="@+id/BHIAntBarnSvar" />
+
+    <TextView
+        android:id="@+id/BHInettsideLenkeSvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/ikkeSatt"
+        app:layout_constraintStart_toEndOf="@+id/BHInettsideLenke"
+        app:layout_constraintTop_toBottomOf="@+id/BHIPedProfilSvar" />
+
+    <TextView
+        android:id="@+id/barnehageNavn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/ikkeSatt"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/BHIAlder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/alder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barnehageNavn" />
+
+    <TextView
+        android:id="@+id/BHIKommune"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/kommuneNavn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BHIAlder" />
+
+    <TextView
+        android:id="@+id/BHIAdresse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/adresse"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BHIKommune" />
+
+    <TextView
+        android:id="@+id/BHIApningstid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/apningstid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BHIAdresse" />
+
+    <TextView
+        android:id="@+id/BHIAntBarn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/antBarn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BHIApningstid" />
+
+    <TextView
+        android:id="@+id/BHIPedProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/pedProfil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BHIAntBarn" />
+
+    <TextView
+        android:id="@+id/BHInettsideLenke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/nettsideLenke"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BHIPedProfil" />
+
+    <ImageView
+        android:id="@+id/mailBilde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BHInettsideLenke"
+        app:srcCompat="@drawable/mail" />
+
+    <ImageView
+        android:id="@+id/ringBilde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BHInettsideLenkeSvar"
+        app:srcCompat="@drawable/ring" />
+
+    <TextView
+        android:id="@+id/BHIEpost"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:minWidth="230dp"
+        android:text="@string/epost"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mailBilde" />
+
+    <TextView
+        android:id="@+id/BHIRing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/ring"
+        app:layout_constraintStart_toStartOf="@+id/ringBilde"
+        app:layout_constraintTop_toBottomOf="@+id/ringBilde" />
+</androidx.constraintlayout.widget.ConstraintLayout>

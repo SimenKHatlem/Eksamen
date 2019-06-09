@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/favKnapp"
+        android:title="Valgt kommune"
+        android:icon="@drawable/fylt_fav"
+        app:showAsAction="always"
+
+        >
+
+    </item>
+
+    <item android:id="@+id/gpsKnapp"
+        android:title="Instillinger"
+        android:icon="@drawable/gpspin"
+        app:showAsAction="always"
+        >
+
+    </item>
+
+    <item android:id="@+id/instillingerKnapp"
+        android:title="Instillinger"
+        android:icon="@drawable/settings"
+        app:showAsAction="always"
+        >
+
+</item>
+
+
+
+
+
+
+
+
+</menu>

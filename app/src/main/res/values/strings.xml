@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Eksamen</string>
+    <string name="velgFylke">Velg fylke for å finne barnehager</string>
+    <string name="velgKom">Velg kommune for å finne barnehager</string>
+    <string name="velgBarnehage">Velg barnehage for mer informasjon</string>
+
+    // Kommune info
+    <string name="antallBarniBH">Antall barn i barnehager i </string>
+    <string name="antallBarnPAnsatt">Antall barn per ansatt</string>
+    <string name="arealPBarn">Leke- og oppholdsareal per barn</string>
+    <string name="andelBHLererutdanning">Andel ansatte med barnehagelærerutdanning</string>
+    <string name="andelPedNorm">Andel barnehager som oppfyller pedagognormen</string>
+    <string name="komLenke">Lenke til kommunens nettside for søknad</string>
+
+    //Barnehage info
+    <string name="alder">Aldersgruppe:</string>
+    <string name="kommuneNavn">Kommune:</string>
+    <string name="adresse">Adresse:</string>
+    <string name="apningstid">Åpningstid: </string>
+    <string name="antBarn">Antall barn:</string>
+    <string name="pedProfil">Pedagogisk profil:</string>
+    <string name="nettsideLenke">Nettside lenke:</string>
+    <string name="ring">Ring </string>
+    <string name="epost">Send en epost til: </string>
+    <string name="title_activity_instillinger">Innstillinger</string>
+
+    <!-- Preference Titles -->
+    <string name="settingsOVerskrift">Instillinger</string>
+
+    <!-- Messages Preferences -->
+
+    <string name="barneAlder">Ditt barns alder</string>
+    <string name="kommuneValg">Velg din kommune</string>
+
+    <!-- Sync Preferences -->
+
+    <string name="BHNaer">Barnehager nær deg</string>
+    <string name="SokKnappTekst">Søk</string>
+    <string name="radius">Radius</string>
+    <string name="visIKart">Vis i kart</string>
+
+
+    <string name="ikkeSatt">Ikke satt</string>
+    <string name="title_activity_barnehage_kart">Map</string>
+
+
+
+
+</resources>
